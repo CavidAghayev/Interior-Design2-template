@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.caption {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://preview.colorlib.com/theme/interior2/img/banner/banner.png.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.header__menu ul li {
+    margin-left: 20px;
+}
+
+.header__menu ul li a {
+    color: white;
+}
+
+.header__text a {
+    color: white;
+    border-bottom: 5px solid yellow;
+    padding-bottom: 10px;       
+}
+.main {
+    width: 100%;
+    align-items: center;
+    height: 700px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.main__content h1 {
+    font-size: 50px;
+    color: white;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+.select {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select__box {
+    width: 30%;
+    height: 500px;
+    transition-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.select__box:hover {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7d/Bigben.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+}
+
+.select__box:hover h2 {
+    color: white;
+}
+
+.select__box__text h2 {
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+
+.select__box__text span {
+    font-size: 150px;
+    color: lightgray;
+}
+
+.elect {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.elect__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.elect__img {
+    width: 48%;
+    margin-bottom: 50px;
+}
+
+.elect__img h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.elect__img img {
+    width: 100%;
+}
+
+.elect__details {
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+
+.elect__details__detail p {
+    font-size: 20px;
+    padding: 20px 0;
+    line-height: 30px;
+    color: gray;
+}
+
+.elect__details__detail button {
+    background-color: darkblue;
+    color: white;
+}
+
+.title {
+    width: 100%;
+    background-color: #F5FBFF;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title__box {
+    width: 48%;
+    padding: 20px 0;
+}
+
+.title__box img {
+    width: 100%;
+}
+
+.title__text {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.title__text h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.title__text p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.title__text button {
+    background-color: darkblue;
+    color: white;
+}
+
+.slayd {
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://preview.colorlib.com/theme/interior2/img/banner/testmonial.png.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.slayd__items p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+.over {
+    width: 100%;
+    height: 578px;
+    background-color: rgba(2, 2, 61, 0.454);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.row {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.row__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.top {
+    width: 24%;
+    height: 250px;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+}
+
+.arrow {
+    width: 100%;
+    height: 100vh;
+    background-color: #001D38;
+}
+
+.arrow__content {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.arrow__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow__left h1 {
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+}
+
+.arrow__left h1 span {
+    color: yellow;
+}
+
+.arrow__right p {
+    font-size: 24px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.arrow__right span {
+    font-size: 15px;
+    color: white;
+    padding-left: 75px;
+}
+
+.arrow__details {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.arrow__topic {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic__address h2 {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.topic__address ul li {
+    padding-top: 20px;
+    color: wheat;
+}
+
+.topic__address ul li a {
+    color: wheat;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+    background: #001D38;
+    border-radius: 30px;    
+    border: none;
+    border: 1px solid gray;
+    color: white;
+}
+
+.topic__address p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    padding-top: 20px;
+    line-height: 30px;
+}
+button:hover {
+    background: none;
+    color: brown;
+    transition-duration: 0.5s;
+    border: 1px solid;
+}
+
